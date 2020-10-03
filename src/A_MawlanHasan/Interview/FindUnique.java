@@ -7,7 +7,8 @@ public class FindUnique {
         String result = "";
         for (int k = 0; k <= str.length() - 1; k++) {
             int count = 0;
-            char ch = str.charAt(k);
+
+            char ch = str.charAt(k);//0
             for (int i = 0; i <= str.length() - 1; i++) {
                 char each = str.charAt(i);
                 if (each == ch) {

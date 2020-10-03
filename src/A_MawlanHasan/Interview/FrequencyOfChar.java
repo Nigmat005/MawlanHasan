@@ -11,11 +11,11 @@ public class FrequencyOfChar {
         for (int i = 0; i <= str.length() - 1; i++) {
             String s = str.charAt(i) + "";
             if (!nonDup.contains(str.charAt(i) + "")) {
-                nonDup += s;
+                nonDup += s; //ban
             }
         }
 
-        String result = "";
+        String result = ""; //b1a3n2
 
         for (int j = 0; j <= nonDup.length() - 1; j++) {
             char ch = nonDup.charAt(j);
